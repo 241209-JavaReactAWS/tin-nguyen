@@ -1,0 +1,86 @@
+body {
+    background-color: cornflowerblue;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size:25px;
+    width: 400px;
+    word-wrap: break-word;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    font-size: 25px;
+}
+
+
+.about-section {
+    background-color: lightblue;
+    border: 1vh black solid;
+    margin: auto;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.fact1 {
+    text-align: center;
+}
+
+.new-jersey-img {
+    height: 150px;
+}
+
+.fact2 {
+    text-align: center;
+
+}
+
+.guitar-img {
+    height: 150px;
+}
+
+.fact3 {
+    text-align: center;
+}
+
+.python-img {
+    height: 150px;
+}
+
+.truth-lie {
+    text-align: center;
+}
+
+.false-statement {
+    color: black;
+    position: relative;
+}
+
+/* Reveal on hover */
+.false-statement:hover::after {
+    content: "(This is the lie)";
+    color: red;
+    font-style: italic;
+    margin-left: 10px;
+}
+
